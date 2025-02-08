@@ -1,5 +1,5 @@
-# Multi-encoder ConvNeXt Network with Attentional Feature Fusion for Multispectral Semantic Segmentation
-
+<!--# Multi-encoder ConvNeXt Network with Attentional Feature Fusion for Multispectral Semantic Segmentation-->
+# Dual-branch ConvNeXt-based Network with Attentional Fusion Decoding for Land Cover Classification Using Multispectral Imagery
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
