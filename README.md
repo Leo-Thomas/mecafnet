@@ -60,7 +60,7 @@ Soon
 <!-- CONTACT -->
 ## Contact
 
-Leo Thomas Ramos - [LinkedIn](https://www.linkedin.com/in/leo-thomas-ramos/) - leo.ramos@kauel.com
+Leo Thomas Ramos - [LinkedIn](https://www.linkedin.com/in/leo-thomas-ramos/) - ltramos@cvc.uab.cat
 
 Angel Sappa - [LinkedIn](https://es.linkedin.com/in/angel-sappa-61532b17) - asappa@cvc.uab.cat
 
