@@ -10,7 +10,7 @@ Correspondence: ltramos@cvc.uab.cat
 
 <!-- ABOUT THE PROJECT -->
 <div align="center">
-<img src="./assets/teaser.png" width="90%"/>
+<img src="./assets/teaser.png" width="100%"/>
 </div>
 
 ## Announcements
