@@ -70,6 +70,21 @@ Performance of the different MeCSAFNet variants on the **Potsdam** dataset:
 | MeCSAFNet-base   | 91.18 | 84.14 | 91.24 | 4.16 | 0.0500 |
 | MeCSAFNet-large  | 91.13 | 94.07 | 91.21 | 5.91 | 0.0537 |
 
+
+## Summary of changes in the extended version
+
+The following table summarizes the key differences between the original conference version and the extended journal version of this work. Understanding these distinctions is important for reproducing results or selecting the appropriate configuration for training and evaluation.
+
+| Feature                         | Conference                              | Extended (Journal)                                              |
+|---------------------------------|------------------------------------------|------------------------------------------------------------------|
+| Datasets                        | Potsdam dataset only                     | Potsdam, Five-Billion-Pixels                                     |
+| Input channels                  | RGB-NIR (4c)                             | RGB-NIR (4c); RGB-NIR-NDVI-NDWI (6c)                             |
+| Training epochs                 | 100 epochs training                      | 150 epochs training                                              |
+| Activation function             | ReLU activation function                 | ASAU activation function                                         |
+| Loss function                   | Cross-entropy                            | Cross-entropy + 0.5 Dice                                         |
+| Training schedule               | Simple training schedule                 | OneCycleLR, Automatic Mixed Precision                            |
+| Evaluation metrics              | OA, IoU, mIoU                            | OA, IoU, mIoU, mF1                                               |
+
 <!-- CONTRIBUTING 
 ## Contributing
 
